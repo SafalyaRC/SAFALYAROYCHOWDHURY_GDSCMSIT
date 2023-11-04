@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    padding: 55px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 20px 2px;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: rgb(255, 51, 0);
+}
+
+img {
+    height: 66px;
+    padding: 10px 50px;
+}
+
+.navbar {
+    margin-left: auto;
+}
+
+#qr {
+    border: 3px solid black;
+    border-radius: 33px;
+    margin: 1px 8px;
+    padding: 15px 30px;
+}
+
+#qr:hover {
+    color: white;
+    background-color: black;
+}
+
+#clubhouse-text {
+    width: 90%;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 40px 25px;
+    cursor: pointer;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-evenly;
+    margin-top: 250px;
+}
+
+.copyright {
+    margin-left: auto;
+    padding-top: 15px;
+    padding-right: 40px;
+}
+
+.footer-links:hover {
+    color: rgb(255, 51, 0);
+}
+
+
+.animated-image {
+    
+    margin-left: -70px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: bounceUpDown 2s infinite alternate ease-in-out;
+}
+
+@keyframes bounceUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); 
+    }
+}
+
+.parallax-text{
+    text-align: center;
+    font-family: 'Nunito','sans-serif';
+    font-weight: bold;
+    font-size:65px;
+    padding-top: 100px;
+}
+
+.getclho {
+    width: 180px;
+    height: 60px;
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 570px; 
+    border: 3px solid black;
+    border-radius: 35px; 
+    background-color: white;
+    cursor: pointer;
+}
+.getclho:hover{
+    color: white;
+    background-color: black;
+}
+
+.parallax-bg {
+    width: 205.38vh;
+    height: 80vh;
+    background: url('https://wallpaperaccess.com/full/1153010.jpg') center/cover no-repeat;
+}
+
+.arrow {
+    margin-left: -70px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: bounceUpDown 2s infinite alternate ease-in-out;
+}
+
+
